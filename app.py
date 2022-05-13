@@ -1,13 +1,5 @@
-print("Bartek Słodyczyka")
-print('o----')
-print(' ||||')
-print('*' * 10)
-print('  *')
-print(' * *')
-print('*   *')
-print('*   *')
-print(' * *')
-print('  *')
-print('  M')
-print("| '   e")
-print('  W  W')
+import converters
+from converters import kg_to_lbs
+
+kg_to_lbs(100)
+print(converters.kg_to_lbs(70))
