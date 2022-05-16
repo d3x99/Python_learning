@@ -6,7 +6,7 @@ class Mammal:
 class Dog(Mammal):
     def bark(self):
         print("bark")
-
+    pass
 
 
 class Cat(Mammal):
@@ -16,6 +16,5 @@ class Cat(Mammal):
 
 dog1 = Dog()
 dog1.walk()
-Cat().be_annoying(
-
-)
+cat1 = Cat()
+cat1.be_annoying()

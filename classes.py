@@ -7,11 +7,7 @@ class Point:
 
 
 point1 = Point()
-point1.x = 10
-point1.y = 20
-print(point1.x)
-point1.draw()
-
+point1.z = 20
 point2 = Point()
-point2.move()
-
+print(point1.z)
+print(point2.draw())
